@@ -68,9 +68,9 @@ echo "1、Pilih IPV4 resmi CF"
 echo "2、Pilih IPV6 resmi CF (Jaringan lokal harus mendukung IPV6)"
 read -p "Silakan pilih: " point
 if [ "$point" = "1" ]; then
-curl -s -o ip.txt https://raw.githubusercontent.com/SonzaiEkkusu/Proxy-Finder/main/ipv4.txt
+curl -s -o ip.txt https://raw.githubusercontent.com/joy-administrator/proxy/main/ip4.txt
 elif [ "$point" = "2" ]; then
-curl -s -o ip.txt https://raw.githubusercontent.com/SonzaiEkkusu/Proxy-Finder/main/ipv6.txt
+curl -s -o ip.txt https://raw.githubusercontent.com/joy-administrator/proxy/main/ip6.txt
 else
 echo "Input salah, silakan pilih lagi" && gfip
 fi
